@@ -13,4 +13,7 @@ class Product {
         $this->SpeciesTarget = $_SpeciesTarget;
         $this->AgeRange = $_AgeRange;
     }
+    public function getValue() {
+        return $this->price = "{$this->price} €";
+    }
 }
