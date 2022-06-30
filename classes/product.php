@@ -14,6 +14,6 @@ class Product {
         $this->AgeRange = $_AgeRange;
     }
     public function getValue() {
-        return $this->price = "{$this->price} €";
+        return $this->price = " {$this->price} €";
     }
 }
